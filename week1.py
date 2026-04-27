@@ -1,0 +1,12 @@
+customer_name = input("Enter customer name: ")
+order_id = input("Enter order ID: ")
+pickup_city = input("Enter pickup city: ")
+drop_city = input("Enter drop city: ")
+weight = float(input("Enter package weight (kg): "))
+
+print("\n--- Transport Request ---")
+print(f"Customer : {customer_name}")
+print(f"Order ID : {order_id}")
+print(f"Pickup : {pickup_city}")
+print(f"Drop : {drop_city}")
+print(f"Weight : {weight} kg")
